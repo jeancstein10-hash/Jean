@@ -1,6 +1,19 @@
-body {background-color: #63c446;}
-p {color: #7b2ab1}
-h1 {color: #7b2ab1; text-align: center;}
-#colegio {color: #7b2ab1;}
-#hobbys {background-color: #726E60;}
-footer {background-color: #442B48; font-size: 30px;}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255) ;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+footer {
+    text-align: center;
+}
+.caixa {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+}
