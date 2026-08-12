@@ -1,4 +1,7 @@
-
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
 body{
     font-family:"Montenegrin Gothic One", serif; ;
     background-color: rgb(32, 32, 41) ;
@@ -124,6 +127,53 @@ a {
 #fatos:hover {
     transform: scale(1.1); /* Aumenta 10% */
 }
+.atividade { 
+    border: 5px solid white;
+
+}
+.gato {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.lista {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.flexb {    
+    text-align: center;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    color: white;
+    flex-direction:column;
+    display: flex;
+    border: 10px solid white;
+    background-color:black;
+}
+#a {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 5px solid white;
+}
+#b {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border: 5px solid white;
+}
+#c {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border: 5px solid white;
+}
+
 .apresentacao {
     text-align: center;
 }
@@ -158,14 +208,9 @@ td {
     background-color: rgb(43, 44, 53); 
     padding: 8px;
     margin: 20px;
+}
 
-}
-#intervalo2 {
-    background: rgb(59, 60, 71);
-}
-#intervalo {
-    background: rgb(59, 60, 71);
-}
+
 /*header {
     position: sticky;
     top: 0;
